@@ -3,7 +3,7 @@
 set -e  # Exit immediately if a command fails
 
 echo "Installing UFW (Uncomplicated Firewall)..."
-sudo apt update && sudo apt install -y ufw
+sudo pacman -S ufw
 
 echo "Configuring firewall rules..."
 sudo ufw default deny incoming
