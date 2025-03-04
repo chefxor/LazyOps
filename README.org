@@ -1,6 +1,7 @@
 #+TITLE: LazyOps
 #+AUTHOR: Chef
 #+DATE: <2025-02-17>
+#+DESCRIPTION: contains useful bash scripts which can automate little setup stuffs
 
 * Table of contents :toc:
 - [[#what-is-lazyops][What is LazyOps]]
