@@ -2,8 +2,10 @@
 #+AUTHOR: Chef
 #+DATE: <2025-02-17>
 #+DESCRIPTION: contains useful bash scripts which can automate little setup stuffs
+#+PROPERTY:
 
-* Table of contents :toc:
+
+* TABLE OF CONTENTS :toc:
 - [[#what-is-lazyops][What is LazyOps]]
 - [[#dependencies][Dependencies]]
 - [[#scripts][Scripts]]
@@ -17,17 +19,26 @@
 This is a treasure chest of handy Bash scripts to make setting up fresh installs a breeze - beacuse who likes doing the same stuff over and over.
 
 * Dependencies
-Dependencies may vary based on the script used. In the majority of these scripts, bash shell should be the only dependency
+Dependencies may vary based on the script used. In the majority of these scripts, =bash= shell should be the only dependency
 
 * Scripts
 ** nvim_setup.sh
 This will help in installing **nvim** and setting up **vim-plug** which is a plugin manager
+#+begin_src bash
+sudo pacman -Syu neovim
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+nvim +PlugInstall +qall
+
+#+end_src
 
 ** firewall_setup.sh
-Installs **ufw** which is a simple light-weight firewall and performs basic setup
+Installs =ufw= which is a simple light-weight firewall and performs basic setup
 
 ** ohmyzsh_setup.sh
-Installs **zsh** and installs ohmyzsh and few popular plugins
+Installs =zsh= and installs =ohmyzsh= and few popular plugins
 
 ** remote_repo.sh
 Pushes existing local git repo to github.com
