@@ -2,7 +2,6 @@
 #+AUTHOR: Chef
 #+DATE: <2025-02-17>
 #+DESCRIPTION: contains useful bash scripts which can automate little setup stuffs
-#+PROPERTY:
 
 
 * TABLE OF CONTENTS :toc:
@@ -14,6 +13,7 @@
   - [[#ohmyzsh_setupsh][ohmyzsh_setup.sh]]
   - [[#remote_reposh][remote_repo.sh]]
   - [[#ssh_setupsh][ssh_setup.sh]]
+  - [[#stow_setupsh][stow_setup.sh]]
 
 * What is LazyOps
 This is a treasure chest of handy Bash scripts to make setting up fresh installs a breeze - beacuse who likes doing the same stuff over and over.
@@ -45,3 +45,6 @@ Pushes existing local git repo to github.com
 
 ** ssh_setup.sh
 Helps in creating ssh keys for a said email account
+
+** stow_setup.sh
+Performs autosetup of symlink for the all dotfiles with the help of stow
