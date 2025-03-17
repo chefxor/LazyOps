@@ -14,6 +14,7 @@
   - [[#remote_reposh][remote_repo.sh]]
   - [[#ssh_setupsh][ssh_setup.sh]]
   - [[#stow_setupsh][stow_setup.sh]]
+  - [[#emacs_startupsh][emacs_startup.sh]]
 
 * What is LazyOps
 This is a treasure chest of handy Bash scripts to make setting up fresh installs a breeze - beacuse who likes doing the same stuff over and over.
@@ -48,3 +49,6 @@ Helps in creating ssh keys for a said email account
 
 ** stow_setup.sh
 Performs autosetup of symlink for the all dotfiles with the help of stow
+
+** emacs_startup.sh
+Contains script which runs the emacs daemon in the background. This is how emacs should always be used, server running in the background and a GUI client
