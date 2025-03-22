@@ -1,3 +1,6 @@
+# Author - Chef
+# Github - https://github.com/chefxor
+
 # Settign up Neovim
 sudo pacman -Syu neovim
 

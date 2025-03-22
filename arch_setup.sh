@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author - Chef
+# Github - https://github.com/chefxor
+
 # Initial update & upgrade
 sudo pacman -Syyu
 

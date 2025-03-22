@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author - Chef
+# Github - https://github.com/chefxor
+
 # Cloning the dotfiles as a bare repo
 git clone --bare git@github.com:chefxor/dotfiles.git $HOME/dotfiles
 

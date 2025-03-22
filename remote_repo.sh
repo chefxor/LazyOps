@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author - Chef
+# Github - https://github.com/chefxor
 
 set -e  # Exit on error
 

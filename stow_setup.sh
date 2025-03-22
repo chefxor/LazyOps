@@ -1,3 +1,6 @@
+# Author - Chef
+# Github - https://github.com/chefxor
+
 #!/bin/bash
 cd "$(dirname "$0")"
 
